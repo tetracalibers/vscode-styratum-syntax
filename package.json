@@ -1,8 +1,16 @@
 {
   "name": "vscode-styratum-syntax",
   "displayName": "vscode-styratum-syntax",
-  "description": "style + stratum",
+  "description": "Syntax highlighting for styratum(style + stratum) notation",
   "publisher": "tetracalibers",
+  "author": {
+    "name": "tomixy",
+    "url": "https://tetracalibers.notion.site/tetracalibers/tomixy-TetraCalibers-30b94fb9fc054d4da667539ef35f42c6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tetracalibers/vscode-styratum-syntax"
+  },
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.69.0"
