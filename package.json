@@ -61,7 +61,7 @@
           "source.js.jsx",
           "source.tsx"
         ],
-        "scopeName": "styratum-in-jsx",
+        "scopeName": "mate.block.styratum-in-jsx",
         "path": "./syntaxes/styratum-in-jsx.tmLanguage.json",
         "embeddedLanguages": {
           "source.css": "css",
