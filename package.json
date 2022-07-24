@@ -22,12 +22,8 @@
   "contributes": {
     "languages": [
       {
-        "id": "styratum",
-        "extensions": [
-          ".syrm.tsx",
-          ".syrm.jsx"
-        ],
-        "configuration": "./configuration/jsx-tag-language-configuration.json"
+        "id": "styratum-css",
+        "configuration": "./configuration/css-language.json"
       }
     ],
     "grammars": [
