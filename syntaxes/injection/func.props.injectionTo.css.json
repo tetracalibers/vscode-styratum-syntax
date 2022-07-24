@@ -3,16 +3,16 @@
   "injectionSelector": "L:meta",
   "patterns": [
     {
-      "include": "#styp-access-prop-func"
+      "include": "#syrm-access-prop-func"
     }
   ],
   "repository": {
-    "styp-access-prop-func": {
+    "syrm-access-prop-func": {
       "begin": "(props)(\\()",
       "end": "(\\))",
       "beginCaptures": {
         "1": {
-          "name": "entity.name.function.styp"
+          "name": "entity.name.function.syrm"
         },
         "2": {
           "name": "punctuation.section.parens.begin"
@@ -23,7 +23,7 @@
           "name": "punctuation.section.parens.end"
         }
       },
-      "name": "variable.other.constant.styp"
+      "name": "variable.other.constant.syrm"
     }
   }
 }

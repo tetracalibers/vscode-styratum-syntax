@@ -28,53 +28,45 @@
     ],
     "grammars": [
       {
-        "language": "styratum",
-        "scopeName": "source.syrm",
-        "path": "./syntaxes/styp.tmLanguage.json",
-        "embeddedLanguages": {
-          "meta.embedded.js.jsx": "jsx-tags",
-          "meta.tag.block.jsx": "jsx-tags",
-          "meta.tag-content.jsx": "javascript",
-          "meta.embnedded.line.js": "javascript",
-          "jsx-embedded-js": "javascript",
-          "meta.embedded.css": "css",
-          "meta.embedded.yaml": "yaml"
-        }
+        "language": "styratum-css",
+        "scopeName": "source.css.syrm",
+        "path": "./syntaxes/base/css.tmLanguage.json"
       },
       {
-        "path": "./syntaxes/injection/css/func.props.injectionTo.css.json",
+        "path": "./syntaxes/injection/func.props.injectionTo.css.json",
         "scopeName": "func-props.to-css.injection",
         "injectTo": [
-          "source.styp"
+          "source.css.syrm"
         ]
       },
       {
-        "path": "./syntaxes/injection/css/selector.ampersand.injectionTo.css.json",
+        "path": "./syntaxes/injection/selector.ampersand.injectionTo.css.json",
         "scopeName": "selector-ampersand.to-css.injection",
         "injectTo": [
-          "source.styp"
+          "source.css.syrm"
         ]
       },
       {
-        "path": "./syntaxes/injection/css/keyword.control.conditional.injectionTo.css.json",
+        "path": "./syntaxes/injection/keyword.control.conditional.injectionTo.css.json",
         "scopeName": "keyword.control.conditional.to-css.injection",
         "injectTo": [
-          "source.styp"
+          "source.css.syrm"
         ]
       },
       {
-        "path": "./syntaxes/injection/jsx/keyword.control.loop.injectionTo.jsx.json",
-        "scopeName": "keyword.control.loop.to-jsx.injection",
         "injectTo": [
-          "source.styp"
-        ]
-      },
-      {
-        "path": "./syntaxes/injection/css/use-vocabulary.injectionTo.styp.cascade.json",
-        "scopeName": "use-vocabulary.to-cascade.injection",
-        "injectTo": [
-          "source.styp"
-        ]
+          "source.js",
+          "source.ts",
+          "source.jsx",
+          "source.js.jsx",
+          "source.tsx"
+        ],
+        "scopeName": "styratum-in-jsx",
+        "path": "./syntaxes/styratum-in-jsx.tmLanguage.json",
+        "embeddedLanguages": {
+          "source.css": "css",
+          "meta.embedded.line.ts": "typescript"
+        }
       }
     ]
   },

@@ -1,30 +1,30 @@
 {
   "scopeName": "keyword.control.conditional.to-css.injection",
-  "injectionSelector": "L:meta.embedded.css",
+  "injectionSelector": "L:source",
   "patterns": [
     {
-      "include": "#styp-cascade-truthy"
+      "include": "#syrm-cascade-truthy"
     },
     {
-      "include": "#styp-cascade-falsy"
+      "include": "#syrm-cascade-falsy"
     },
     {
-      "include": "#styp-cascade-exist"
+      "include": "#syrm-cascade-exist"
     },
     {
-      "include": "#styp-cascade-else"
+      "include": "#syrm-cascade-else"
     }
   ],
   "repository": {
-    "styp-cascade-truthy": {
+    "syrm-cascade-truthy": {
       "begin": "(@)(truthy)(\\()",
       "end": "(\\))",
       "beginCaptures": {
         "1": {
-          "name": "punctuation.definition.keyword.styp"
+          "name": "punctuation.definition.keyword.syrm"
         },
         "2": {
-          "name": "keyword.control.conditional.truthy.styp"
+          "name": "keyword.control.conditional.truthy.syrm"
         },
         "3": {
           "name": "punctuation.section.parens.begin"
@@ -35,17 +35,17 @@
           "name": "punctuation.section.parens.end"
         }
       },
-      "name": "variable.other.constant.styp"
+      "name": "variable.other.constant.syrm"
     },
-    "styp-cascade-falsy": {
+    "syrm-cascade-falsy": {
       "begin": "(@)(falsy)(\\()",
       "end": "(\\))",
       "beginCaptures": {
         "1": {
-          "name": "punctuation.definition.keyword.styp"
+          "name": "punctuation.definition.keyword.syrm"
         },
         "2": {
-          "name": "keyword.control.conditional.falsy.styp"
+          "name": "keyword.control.conditional.falsy.syrm"
         },
         "3": {
           "name": "punctuation.section.parens.begin"
@@ -56,17 +56,17 @@
           "name": "punctuation.section.parens.end"
         }
       },
-      "name": "variable.other.constant.styp"
+      "name": "variable.other.constant.syrm"
     },
-    "styp-cascade-exist": {
+    "syrm-cascade-exist": {
       "begin": "(@)(exist)(\\()",
       "end": "(\\))",
       "beginCaptures": {
         "1": {
-          "name": "punctuation.definition.keyword.styp"
+          "name": "punctuation.definition.keyword.syrm"
         },
         "2": {
-          "name": "keyword.control.conditional.exist.styp"
+          "name": "keyword.control.conditional.exist.syrm"
         },
         "3": {
           "name": "punctuation.section.parens.begin"
@@ -77,16 +77,16 @@
           "name": "punctuation.section.parens.end"
         }
       },
-      "name": "variable.other.constant.styp"
+      "name": "variable.other.constant.syrm"
     },
-    "styp-cascade-else": {
+    "syrm-cascade-else": {
       "match": "(@)(else)",
       "captures": {
         "1": {
-          "name": "punctuation.definition.keyword.styp"
+          "name": "punctuation.definition.keyword.syrm"
         }
       },
-      "name": "keyword.control.conditional.else.styp"
+      "name": "keyword.control.conditional.else.syrm"
     }
   }
 }

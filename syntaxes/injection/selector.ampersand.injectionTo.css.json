@@ -1,0 +1,15 @@
+{
+  "scopeName": "selector-ampersand.to-css.injection",
+  "injectionSelector": "L:source",
+  "patterns": [
+    {
+      "include": "#syrm-ampersand-selector"
+    }
+  ],
+  "repository": {
+    "syrm-ampersand-selector": {
+      "match": "&",
+      "name": "entity.name.tag.root.syrm"
+    }
+  }
+}
