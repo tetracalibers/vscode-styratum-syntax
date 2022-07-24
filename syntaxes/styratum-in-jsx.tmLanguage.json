@@ -1,36 +1,33 @@
 {
-  "fileTypes": ["js", "jsx", "ts", "tsx"],
   "scopeName": "meta.block.styratum-in-jsx",
-  "name": "styratum-in-jsx",
+  "injectionSelector": "L:meta.jsx.children.tsx",
   "patterns": [
     {
-      "begin": "(<)(Cascade)(>)((?<=>)\n)",
+      "begin": "(<)(Cascade)(>)",
       "beginCaptures": {
         "1": {
-          "name": "punctuation.definition.tag.begin.html"
+          "name": "punctuation.definition.tag.begin.tsx"
         },
         "2": {
-          "name": "entity.name.tag.html"
+          "name": "entity.name.tag.tsx"
         },
         "3": {
-          "name": "punctuation.definition.tag.end.html"
-        },
-        "4": {
-          "name": "meta.jsx.children.tsx"
+          "name": "punctuation.definition.tag.end.tsx"
         }
       },
       "end": "(</)(\\2)(>)",
       "endCaptures": {
         "1": {
-          "name": "punctuation.definition.tag.begin.html"
+          "name": "punctuation.definition.tag.begin.tsx"
         },
         "2": {
-          "name": "entity.name.tag.html"
+          "name": "entity.name.tag.tsx"
         },
         "3": {
-          "name": "punctuation.definition.tag.end.html"
+          "name": "punctuation.definition.tag.end.tsx"
         }
       },
+      "name": "meta.embedded.css.syrm",
       "patterns": [
         {
           "include": "source.css.syrm"

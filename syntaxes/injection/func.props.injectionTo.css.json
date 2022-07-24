@@ -1,6 +1,6 @@
 {
   "scopeName": "func-props.to-css.injection",
-  "injectionSelector": "L:meta",
+  "injectionSelector": "L:meta.embedded.css.syrm",
   "patterns": [
     {
       "include": "#syrm-access-prop-func"

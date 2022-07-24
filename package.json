@@ -36,21 +36,33 @@
         "path": "./syntaxes/injection/func.props.injectionTo.css.json",
         "scopeName": "func-props.to-css.injection",
         "injectTo": [
-          "source.css.syrm"
+          "source.js",
+          "source.ts",
+          "source.jsx",
+          "source.js.jsx",
+          "source.tsx"
         ]
       },
       {
         "path": "./syntaxes/injection/selector.ampersand.injectionTo.css.json",
         "scopeName": "selector-ampersand.to-css.injection",
         "injectTo": [
-          "source.css.syrm"
+          "source.js",
+          "source.ts",
+          "source.jsx",
+          "source.js.jsx",
+          "source.tsx"
         ]
       },
       {
         "path": "./syntaxes/injection/keyword.control.conditional.injectionTo.css.json",
         "scopeName": "keyword.control.conditional.to-css.injection",
         "injectTo": [
-          "source.css.syrm"
+          "source.js",
+          "source.ts",
+          "source.jsx",
+          "source.js.jsx",
+          "source.tsx"
         ]
       },
       {
@@ -61,11 +73,10 @@
           "source.js.jsx",
           "source.tsx"
         ],
-        "scopeName": "mate.block.styratum-in-jsx",
+        "scopeName": "meta.block.styratum-in-jsx",
         "path": "./syntaxes/styratum-in-jsx.tmLanguage.json",
         "embeddedLanguages": {
-          "source.css": "css",
-          "meta.embedded.line.ts": "typescript"
+          "meta.embedded.css.syrm": "styratum-css"
         }
       }
     ]

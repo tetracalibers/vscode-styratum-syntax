@@ -1,6 +1,6 @@
 {
   "scopeName": "keyword.control.conditional.to-css.injection",
-  "injectionSelector": "L:source",
+  "injectionSelector": "L:meta.embedded.css.syrm",
   "patterns": [
     {
       "include": "#syrm-cascade-truthy"

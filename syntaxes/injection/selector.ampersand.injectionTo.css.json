@@ -1,6 +1,6 @@
 {
   "scopeName": "selector-ampersand.to-css.injection",
-  "injectionSelector": "L:source",
+  "injectionSelector": "L:meta.embedded.css.syrm",
   "patterns": [
     {
       "include": "#syrm-ampersand-selector"
